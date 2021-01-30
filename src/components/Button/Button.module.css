@@ -1,0 +1,23 @@
+.button {
+    padding: 10px 30px;
+    margin-right: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    box-shadow: 6px 6px 18px #a169b9;
+    font-size: 16px;
+    font-family: "Oswald";
+    font-weight: 700;
+    background-color: white;
+}
+
+.button:active {
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+.button:hover {
+    background-color: #5b2b70;
+    cursor: pointer;
+    color: white;
+}
